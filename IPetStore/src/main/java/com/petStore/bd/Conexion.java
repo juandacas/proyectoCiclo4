@@ -28,7 +28,7 @@ public class Conexion {
         if(conexion==null){
             try{
                 Class.forName("com.mysql.cj.jdbc.Driver");
-                conexion = DriverManager.getConnection("jdbc:mysql://localhost:3306/IPetStore", "root", "");
+                conexion = DriverManager.getConnection("jdbc:mysql://localhost:3306/ipetstore", "root", "");
             }
             catch(ClassNotFoundException e){
                 System.out.println("Error de Driver MySQL: "+e.getMessage());
