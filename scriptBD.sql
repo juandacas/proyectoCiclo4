@@ -39,5 +39,5 @@ CONSTRAINT FK_producto FOREIGN KEY (producto)
     REFERENCES productos(id)
 );
 
-INSERT INTO `productocarrito`(`carrito`, `producto`) VALUES (1,1),(1,2);
+INSERT INTO `productocarrito`(`carrito`, `producto`,`cantidad`,`precio`) VALUES (1,1,1,25700),(1,2,1,25700);
 
